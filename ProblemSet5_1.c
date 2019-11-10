@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    char s[100];
+    char Str[100];
     int i;
 
-    printf("Enter a string:\n");
-    scanf("%s", s);
+    printf("Enter String:\n");
+    scanf("%s", Str);
 
-    for(i = 0; s[i] != '\0'; ++i);
+    for (i = 0; Str[i] != '\0'; ++i);
 
-    printf("Length of string: %d", i);
+    printf("Length of Str is %d", i);
+
     return 0;
-
 }
